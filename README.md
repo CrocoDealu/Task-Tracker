@@ -80,14 +80,6 @@ The backend will start on [http://localhost:8080](http://localhost:8080).
 - **DELETE** `/api/tasks/{id}` - Delete a task by ID
 - **PATCH** `/api/tasks/{id}/status` - Mark task as done or in-progress
 
-#### Database
-
-The application uses an in-memory H2 database by default. Access the H2 console at [http://localhost:8080/h2-console](http://localhost:8080/h2-console) with the following credentials:
-
-- **JDBC URL**: `jdbc:h2:mem:testdb`
-- **Username**: `sa`
-- **Password**: *(leave blank)*
-
 ### 3. Running the Frontend
 
 Navigate to the `frontend` directory:
