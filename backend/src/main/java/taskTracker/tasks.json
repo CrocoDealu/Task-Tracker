@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "titlu1",
+    "description": "descriere",
+    "status": "to do",
+    "createdAt": "2024-10-23T14:14:43.726169953",
+    "updatedAt": "2024-10-23T14:14:43.726204067"
+  },
+  {
+    "id": 2,
+    "title": "New Task",
+    "description": "This is a new task",
+    "status": "to do",
+    "createdAt": "2024-10-23T14:49:32.818526620",
+    "updatedAt": "2024-10-23T14:49:32.818539384"
+  }
+]

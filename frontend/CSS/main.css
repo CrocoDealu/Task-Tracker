@@ -1,0 +1,12 @@
+.bg-dark {
+    background-color: #1C1C2E;
+}
+.bg-card {
+    background-color: #26273B;
+}
+.text-light {
+    color: #B0B0C3;
+}
+body {
+    overflow: hidden;
+}
