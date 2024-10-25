@@ -1,6 +1,3 @@
-# Task-Tracker
-=======
-
 # Task Tracker
 
 This is a full-stack **Task Tracker** application built with **Spring Boot (Maven)** for the backend and **Tailwind CSS** and **pure JavaScript** for the frontend. The application allows users to manage tasks with functionality to add, update, delete, and mark tasks as complete or in-progress.
