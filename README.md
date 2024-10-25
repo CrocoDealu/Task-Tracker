@@ -119,4 +119,3 @@ Log files for the backend are stored in the `/backend/logs/` directory. You can 
 ## License
 
 This project is licensed under the MIT License.
->>>>>>> e380b9e (Initial Commit)
