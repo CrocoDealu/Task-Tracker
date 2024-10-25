@@ -1,0 +1,16 @@
+Add task
+curl -X POST "http://localhost:8080/api/tasks?title=TestTask&description=This%20is%20a%20test"
+Update Task
+curl -X PUT "http://localhost:8080/api/tasks/1?title=UpdatedTitle&description=UpdatedDescription"
+Mark-done task
+curl -X PATCH "http://localhost:8080/api/tasks/1/status?status=done"
+Mark-in-progress task
+curl -X PATCH "http://localhost:8080/api/tasks/1/status?status=in-progress"
+List
+curl -X GET "http://localhost:8080/api/tasks"
+List done
+curl -X GET "http://localhost:8080/api/tasks/done"
+List todo
+curl -X GET "http://localhost:8080/api/tasks/todo"
+List in-progress
+curl -X GET "http://localhost:8080/api/tasks/in-progress"

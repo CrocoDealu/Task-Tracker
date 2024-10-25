@@ -1,0 +1,549 @@
+2024-10-25T13:00:21.035+03:00  INFO 9468 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 9468 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:00:21.038+03:00  INFO 9468 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:00:21.134+03:00  INFO 9468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:00:21.135+03:00  INFO 9468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:00:22.363+03:00  INFO 9468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:00:22.373+03:00  INFO 9468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:00:22.373+03:00  INFO 9468 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:00:22.442+03:00  INFO 9468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:00:22.443+03:00  INFO 9468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1307 ms
+2024-10-25T13:00:22.573+03:00  WARN 9468 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 77e920cd-5ce8-467e-8107-87619f665227
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:00:22.846+03:00  INFO 9468 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3163e4d3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@775d5b90, org.springframework.security.web.context.SecurityContextHolderFilter@b9cf25a, org.springframework.security.web.header.HeaderWriterFilter@45673483, org.springframework.web.filter.CorsFilter@7804b5fe, org.springframework.security.web.authentication.logout.LogoutFilter@4b07517, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21b8badc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ad9b770, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@db8ba3d, org.springframework.security.web.access.ExceptionTranslationFilter@321d60df, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53c55d4e]
+2024-10-25T13:00:22.998+03:00  INFO 9468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:00:23.030+03:00  INFO 9468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:00:23.039+03:00  INFO 9468 --- [restartedMain] taskTracker.Main                         : Started Main in 2.609 seconds (process running for 4.1)
+2024-10-25T13:00:39.825+03:00  INFO 9468 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T13:00:39.825+03:00  INFO 9468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T13:00:39.826+03:00  INFO 9468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-25T13:00:39.881+03:00  WARN 9468 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'title' for method parameter type String is not present]
+2024-10-25T13:10:56.047+03:00  INFO 332 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 332 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:10:56.049+03:00  INFO 332 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:10:56.118+03:00  INFO 332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:10:56.118+03:00  INFO 332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:10:57.186+03:00  INFO 332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:10:57.196+03:00  INFO 332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:10:57.197+03:00  INFO 332 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:10:57.254+03:00  INFO 332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:10:57.254+03:00  INFO 332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1135 ms
+2024-10-25T13:10:57.382+03:00  WARN 332 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: be552125-93dc-4113-9049-70d1a70974d0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:10:57.625+03:00  INFO 332 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@36f81726, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10f73c8d, org.springframework.security.web.context.SecurityContextHolderFilter@13eeb096, org.springframework.security.web.header.HeaderWriterFilter@4c663ca9, org.springframework.web.filter.CorsFilter@349b0ccb, org.springframework.security.web.authentication.logout.LogoutFilter@4353d10c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65b9ac68, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@650e8bda, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@999af3c, org.springframework.security.web.access.ExceptionTranslationFilter@5ab9e5f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@753d86fd]
+2024-10-25T13:10:57.751+03:00  INFO 332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:10:57.782+03:00  INFO 332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:10:57.789+03:00  INFO 332 --- [restartedMain] taskTracker.Main                         : Started Main in 2.165 seconds (process running for 3.299)
+2024-10-25T13:11:03.001+03:00  INFO 332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T13:11:03.001+03:00  INFO 332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T13:11:03.002+03:00  INFO 332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-25T13:11:03.072+03:00  WARN 332 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'title' for method parameter type String is not present]
+2024-10-25T13:16:30.589+03:00  INFO 25556 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 25556 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:16:30.592+03:00  INFO 25556 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:16:30.648+03:00  INFO 25556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:16:30.648+03:00  INFO 25556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:16:31.529+03:00  INFO 25556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:16:31.538+03:00  INFO 25556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:16:31.538+03:00  INFO 25556 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:16:31.594+03:00  INFO 25556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:16:31.594+03:00  INFO 25556 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 945 ms
+2024-10-25T13:16:31.706+03:00  WARN 25556 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fd1d4491-011d-47dc-a397-25a508bc6eb6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:16:31.920+03:00  INFO 25556 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@9a13502, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42fa0203, org.springframework.security.web.context.SecurityContextHolderFilter@532bcc9b, org.springframework.security.web.header.HeaderWriterFilter@2807dda6, org.springframework.web.filter.CorsFilter@3abac3b6, org.springframework.security.web.authentication.logout.LogoutFilter@3c6fd57b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c7ce2d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ce53e6d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@436c095f, org.springframework.security.web.access.ExceptionTranslationFilter@5ffbfb9e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c89f1dd]
+2024-10-25T13:16:32.031+03:00  INFO 25556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:16:32.057+03:00  INFO 25556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:16:32.064+03:00  INFO 25556 --- [restartedMain] taskTracker.Main                         : Started Main in 1.87 seconds (process running for 2.613)
+2024-10-25T13:16:34.597+03:00  INFO 25556 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T13:16:34.597+03:00  INFO 25556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T13:16:34.598+03:00  INFO 25556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-25T13:21:12.217+03:00  INFO 26852 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 26852 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:21:12.219+03:00  INFO 26852 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:21:12.274+03:00  INFO 26852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:21:12.274+03:00  INFO 26852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:21:13.132+03:00  INFO 26852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:21:13.140+03:00  INFO 26852 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:21:13.140+03:00  INFO 26852 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:21:13.189+03:00  INFO 26852 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:21:13.189+03:00  INFO 26852 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 914 ms
+2024-10-25T13:21:13.291+03:00  WARN 26852 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b594cfd9-ad7d-4d01-9895-bf6ce3fa90a9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:21:13.501+03:00  INFO 26852 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@33923397, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2cd8477b, org.springframework.security.web.context.SecurityContextHolderFilter@7a20454a, org.springframework.security.web.header.HeaderWriterFilter@a02860e, org.springframework.web.filter.CorsFilter@608f7652, org.springframework.security.web.authentication.logout.LogoutFilter@7cb397e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@132b7a32, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@527a5cd4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@264dd035, org.springframework.security.web.access.ExceptionTranslationFilter@77fe6b93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b50be37]
+2024-10-25T13:21:13.623+03:00  INFO 26852 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:21:13.654+03:00  INFO 26852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:21:13.662+03:00  INFO 26852 --- [restartedMain] taskTracker.Main                         : Started Main in 1.831 seconds (process running for 2.564)
+2024-10-25T13:21:50.213+03:00  INFO 27352 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 27352 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:21:50.215+03:00  INFO 27352 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:21:50.272+03:00  INFO 27352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:21:50.272+03:00  INFO 27352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:21:51.163+03:00  INFO 27352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:21:51.171+03:00  INFO 27352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:21:51.172+03:00  INFO 27352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:21:51.222+03:00  INFO 27352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:21:51.222+03:00  INFO 27352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 949 ms
+2024-10-25T13:21:51.331+03:00  WARN 27352 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1dca7217-7577-44f2-8019-c9db21cb05d4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:21:51.546+03:00  INFO 27352 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2fd36df4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23f3801c, org.springframework.security.web.context.SecurityContextHolderFilter@4557d1b5, org.springframework.security.web.header.HeaderWriterFilter@48e82956, org.springframework.web.filter.CorsFilter@6933e3c6, org.springframework.security.web.authentication.logout.LogoutFilter@3f5f4861, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ce53e6d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71276a7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f40f94e, org.springframework.security.web.access.ExceptionTranslationFilter@78cc666a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@699bb03e]
+2024-10-25T13:21:51.660+03:00  INFO 27352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:21:51.685+03:00  INFO 27352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:21:51.692+03:00  INFO 27352 --- [restartedMain] taskTracker.Main                         : Started Main in 1.866 seconds (process running for 2.591)
+2024-10-25T13:21:54.452+03:00  INFO 27352 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T13:21:54.453+03:00  INFO 27352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T13:21:54.454+03:00  INFO 27352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-25T13:22:47.352+03:00  INFO 23196 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 23196 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:22:47.368+03:00  INFO 23196 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:22:47.414+03:00  INFO 23196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:22:47.414+03:00  INFO 23196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:22:48.322+03:00  INFO 23196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:22:48.332+03:00  INFO 23196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:22:48.332+03:00  INFO 23196 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:22:48.390+03:00  INFO 23196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:22:48.391+03:00  INFO 23196 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 977 ms
+2024-10-25T13:22:48.502+03:00  WARN 23196 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: abf31be2-e8e5-4881-b4d0-794ccf383ac5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:22:48.716+03:00  INFO 23196 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37e5c87, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@da4036e, org.springframework.security.web.context.SecurityContextHolderFilter@76723231, org.springframework.security.web.header.HeaderWriterFilter@4bc67427, org.springframework.web.filter.CorsFilter@675de651, org.springframework.security.web.authentication.logout.LogoutFilter@2b7ff90d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@798ed3f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c1194e2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c978856, org.springframework.security.web.access.ExceptionTranslationFilter@4e575c26, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55f64e36]
+2024-10-25T13:22:48.846+03:00  INFO 23196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:22:48.881+03:00  INFO 23196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:22:48.889+03:00  INFO 23196 --- [restartedMain] taskTracker.Main                         : Started Main in 1.913 seconds (process running for 2.655)
+2024-10-25T13:22:51.910+03:00  INFO 23196 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T13:22:51.911+03:00  INFO 23196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T13:22:51.912+03:00  INFO 23196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-25T13:25:16.724+03:00  INFO 3352 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 3352 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:25:16.726+03:00  INFO 3352 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:25:16.787+03:00  INFO 3352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:25:16.787+03:00  INFO 3352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:25:17.839+03:00  INFO 3352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:25:17.850+03:00  INFO 3352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:25:17.850+03:00  INFO 3352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:25:17.908+03:00  INFO 3352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:25:17.908+03:00  INFO 3352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1120 ms
+2024-10-25T13:25:18.056+03:00  WARN 3352 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cd2c8e54-a4c9-4cb4-9969-0bf35bc1982a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:25:18.347+03:00  INFO 3352 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37f680ec, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69942996, org.springframework.security.web.context.SecurityContextHolderFilter@1cdaec07, org.springframework.security.web.header.HeaderWriterFilter@3d78a5fc, org.springframework.web.filter.CorsFilter@1bae4be5, org.springframework.security.web.authentication.logout.LogoutFilter@91bdabd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72949882, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68ab3ebd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79077863, org.springframework.security.web.access.ExceptionTranslationFilter@7677f6d1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62aa711c]
+2024-10-25T13:25:18.490+03:00  INFO 3352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:25:18.521+03:00  INFO 3352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:25:18.538+03:00  INFO 3352 --- [restartedMain] taskTracker.Main                         : Started Main in 2.23 seconds (process running for 3.343)
+2024-10-25T13:25:23.195+03:00  INFO 3352 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T13:25:23.196+03:00  INFO 3352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T13:25:23.197+03:00  INFO 3352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-25T13:42:13.963+03:00  INFO 29016 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 29016 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:42:13.965+03:00  INFO 29016 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:42:14.022+03:00  INFO 29016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:42:14.022+03:00  INFO 29016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:42:15.059+03:00  INFO 29016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:42:15.068+03:00  INFO 29016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:42:15.068+03:00  INFO 29016 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:42:15.117+03:00  INFO 29016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:42:15.118+03:00  INFO 29016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1095 ms
+2024-10-25T13:42:15.229+03:00  WARN 29016 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fc96c9e9-9fc2-4386-898d-01cd3b968e7f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:42:15.472+03:00  INFO 29016 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@217da8f1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f3866b4, org.springframework.security.web.context.SecurityContextHolderFilter@5b51be4, org.springframework.security.web.header.HeaderWriterFilter@28124616, org.springframework.web.filter.CorsFilter@5b0ae4c6, org.springframework.security.web.authentication.logout.LogoutFilter@e4c11aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15edd909, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11617c67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fa4b5d9, org.springframework.security.web.access.ExceptionTranslationFilter@47cd2c73, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32a54235]
+2024-10-25T13:42:15.604+03:00  INFO 29016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:42:15.638+03:00  INFO 29016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:42:15.646+03:00  INFO 29016 --- [restartedMain] taskTracker.Main                         : Started Main in 2.091 seconds (process running for 3.031)
+2024-10-25T13:42:18.619+03:00  INFO 29016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T13:42:18.620+03:00  INFO 29016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T13:42:18.621+03:00  INFO 29016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-25T13:45:17.360+03:00  INFO 31404 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 31404 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:45:17.360+03:00  INFO 31404 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:45:17.439+03:00  INFO 31404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:45:17.442+03:00  INFO 31404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:45:18.664+03:00  INFO 31404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:45:18.664+03:00  INFO 31404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:45:18.664+03:00  INFO 31404 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:45:18.726+03:00  INFO 31404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:45:18.726+03:00  INFO 31404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1284 ms
+2024-10-25T13:45:18.868+03:00  WARN 31404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1cf4c9c4-f070-41f2-887a-3270275890f7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:45:19.180+03:00  INFO 31404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@71d7dde8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bc87e24, org.springframework.security.web.context.SecurityContextHolderFilter@762e3d8b, org.springframework.security.web.header.HeaderWriterFilter@4c45f833, org.springframework.web.filter.CorsFilter@603e89d5, org.springframework.security.web.authentication.logout.LogoutFilter@15ac4b65, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bc30246, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70f99c0a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@237ce9d2, org.springframework.security.web.access.ExceptionTranslationFilter@686af7cd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b9b154c]
+2024-10-25T13:45:19.369+03:00  INFO 31404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:45:19.416+03:00  INFO 31404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:45:19.431+03:00  INFO 31404 --- [restartedMain] taskTracker.Main                         : Started Main in 2.5 seconds (process running for 19.382)
+2024-10-25T13:45:20.185+03:00  INFO 31404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T13:45:20.185+03:00  INFO 31404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T13:45:20.185+03:00  INFO 31404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-25T13:48:53.822+03:00  INFO 10656 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 10656 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:48:53.826+03:00  INFO 10656 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:48:53.897+03:00  INFO 10656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:48:53.897+03:00  INFO 10656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:48:54.969+03:00  INFO 10656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:48:54.979+03:00  INFO 10656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:48:54.980+03:00  INFO 10656 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:48:55.049+03:00  INFO 10656 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:48:55.049+03:00  INFO 10656 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1152 ms
+2024-10-25T13:48:55.193+03:00  WARN 10656 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1def2eff-a134-46ee-9fb1-1a97f7422f00
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:48:55.453+03:00  INFO 10656 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2fd36df4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23f3801c, org.springframework.security.web.context.SecurityContextHolderFilter@11617c67, org.springframework.security.web.header.HeaderWriterFilter@5b51be4, org.springframework.web.filter.CorsFilter@6933e3c6, org.springframework.security.web.authentication.logout.LogoutFilter@213d90a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6da737ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16799ec1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f40f94e, org.springframework.security.web.access.ExceptionTranslationFilter@34f3d335, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@699bb03e]
+2024-10-25T13:48:55.580+03:00  INFO 10656 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:48:55.612+03:00  INFO 10656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:48:55.620+03:00  INFO 10656 --- [restartedMain] taskTracker.Main                         : Started Main in 2.21 seconds (process running for 2.945)
+2024-10-25T13:48:58.075+03:00  INFO 10656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T13:48:58.075+03:00  INFO 10656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T13:48:58.076+03:00  INFO 10656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-25T13:50:07.271+03:00  INFO 9324 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 9324 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T13:50:07.274+03:00  INFO 9324 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T13:50:07.331+03:00  INFO 9324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T13:50:07.331+03:00  INFO 9324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T13:50:08.242+03:00  INFO 9324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T13:50:08.252+03:00  INFO 9324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T13:50:08.252+03:00  INFO 9324 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T13:50:08.311+03:00  INFO 9324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T13:50:08.311+03:00  INFO 9324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 980 ms
+2024-10-25T13:50:08.450+03:00  WARN 9324 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9bdfd8e2-85fd-4e2f-a0b3-7ab3caa2f155
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T13:50:08.680+03:00  INFO 9324 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@59cff09a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cba4aed, org.springframework.security.web.context.SecurityContextHolderFilter@cc28123, org.springframework.security.web.header.HeaderWriterFilter@4f92046e, org.springframework.web.filter.CorsFilter@1138e0c1, org.springframework.security.web.authentication.logout.LogoutFilter@4cb1c3c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c3ca4aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@307e0a93, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a31bca7, org.springframework.security.web.access.ExceptionTranslationFilter@4d0d465e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@386fa568]
+2024-10-25T13:50:08.803+03:00  INFO 9324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T13:50:08.835+03:00  INFO 9324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T13:50:08.844+03:00  INFO 9324 --- [restartedMain] taskTracker.Main                         : Started Main in 1.951 seconds (process running for 2.682)
+2024-10-25T13:50:10.773+03:00  INFO 9324 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T13:50:10.773+03:00  INFO 9324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T13:50:10.774+03:00  INFO 9324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-25T14:00:41.813+03:00  INFO 19124 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 19124 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:00:41.815+03:00  INFO 19124 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:00:41.878+03:00  INFO 19124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:00:41.878+03:00  INFO 19124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:00:42.878+03:00  INFO 19124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:00:42.887+03:00  INFO 19124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:00:42.887+03:00  INFO 19124 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:00:42.939+03:00  INFO 19124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:00:42.940+03:00  INFO 19124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1062 ms
+2024-10-25T14:00:43.072+03:00  WARN 19124 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f0195c28-e6a3-4c64-946c-0827df38c9f6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:00:43.361+03:00  INFO 19124 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@217da8f1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f3866b4, org.springframework.security.web.context.SecurityContextHolderFilter@47cd2c73, org.springframework.security.web.header.HeaderWriterFilter@1d97eae8, org.springframework.web.filter.CorsFilter@5b0ae4c6, org.springframework.security.web.authentication.logout.LogoutFilter@623cc89b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28124616, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34f3d335, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fa4b5d9, org.springframework.security.web.access.ExceptionTranslationFilter@3eba7a13, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32a54235]
+2024-10-25T14:00:43.519+03:00  INFO 19124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:00:43.566+03:00  INFO 19124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:00:43.579+03:00  INFO 19124 --- [restartedMain] taskTracker.Main                         : Started Main in 2.25 seconds (process running for 3.067)
+2024-10-25T14:00:50.333+03:00  INFO 19124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T14:00:50.334+03:00  INFO 19124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T14:00:50.335+03:00  INFO 19124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-25T14:07:59.488+03:00  INFO 8380 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 8380 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:07:59.491+03:00  INFO 8380 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:07:59.553+03:00  INFO 8380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:07:59.553+03:00  INFO 8380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:08:00.549+03:00  INFO 8380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:08:00.560+03:00  INFO 8380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:08:00.561+03:00  INFO 8380 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:08:00.617+03:00  INFO 8380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:08:00.617+03:00  INFO 8380 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1063 ms
+2024-10-25T14:08:00.757+03:00  WARN 8380 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5dfcd8c9-cf10-46fc-9f49-0cae68c355fc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:08:01.010+03:00  INFO 8380 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1754fab6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@666f48b4, org.springframework.security.web.context.SecurityContextHolderFilter@d5066c4, org.springframework.security.web.header.HeaderWriterFilter@784f376a, org.springframework.web.filter.CorsFilter@7f99f08c, org.springframework.security.web.authentication.logout.LogoutFilter@712fc510, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fbe8abc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63ff0c76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64110c8d, org.springframework.security.web.access.ExceptionTranslationFilter@613df3ec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f9eb718]
+2024-10-25T14:08:01.148+03:00  INFO 8380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:08:01.179+03:00  INFO 8380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:08:01.186+03:00  INFO 8380 --- [restartedMain] taskTracker.Main                         : Started Main in 2.129 seconds (process running for 3.39)
+2024-10-25T14:08:04.992+03:00  INFO 8380 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T14:08:04.993+03:00  INFO 8380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T14:08:04.994+03:00  INFO 8380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-25T14:08:10.435+03:00  WARN 8380 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-10-25T14:09:46.442+03:00  INFO 3120 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 3120 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:09:46.445+03:00  INFO 3120 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:09:46.504+03:00  INFO 3120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:09:46.504+03:00  INFO 3120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:09:47.372+03:00  INFO 3120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:09:47.381+03:00  INFO 3120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:09:47.382+03:00  INFO 3120 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:09:47.429+03:00  INFO 3120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:09:47.429+03:00  INFO 3120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 925 ms
+2024-10-25T14:09:47.539+03:00  WARN 3120 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5f5fea8d-1bdf-42ab-b4d7-4b2acfcf6ccd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:09:47.755+03:00  INFO 3120 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@35c88803, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3be4462, org.springframework.security.web.context.SecurityContextHolderFilter@721f5ebe, org.springframework.security.web.header.HeaderWriterFilter@4aaadb65, org.springframework.web.filter.CorsFilter@7d28b397, org.springframework.security.web.authentication.logout.LogoutFilter@34f80545, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63f543c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d9d49f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fa5368c, org.springframework.security.web.access.ExceptionTranslationFilter@2d0cbd67, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ff28cd]
+2024-10-25T14:09:47.862+03:00  INFO 3120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:09:47.888+03:00  INFO 3120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:09:47.896+03:00  INFO 3120 --- [restartedMain] taskTracker.Main                         : Started Main in 1.827 seconds (process running for 2.563)
+2024-10-25T14:09:54.561+03:00  INFO 3120 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T14:09:54.562+03:00  INFO 3120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T14:09:54.563+03:00  INFO 3120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-25T14:10:25.961+03:00  INFO 21380 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 21380 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:10:25.963+03:00  INFO 21380 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:10:26.017+03:00  INFO 21380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:10:26.018+03:00  INFO 21380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:10:26.881+03:00  INFO 21380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:10:26.889+03:00  INFO 21380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:10:26.890+03:00  INFO 21380 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:10:26.937+03:00  INFO 21380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:10:26.937+03:00  INFO 21380 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2024-10-25T14:10:27.044+03:00  WARN 21380 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e76c7f55-5a2c-4a23-a2a4-79e1cd67fad3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:10:27.261+03:00  INFO 21380 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@686c39f9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e7e7018, org.springframework.security.web.context.SecurityContextHolderFilter@7b941d45, org.springframework.security.web.header.HeaderWriterFilter@1f9a2ef5, org.springframework.web.filter.CorsFilter@5b6567f6, org.springframework.security.web.authentication.logout.LogoutFilter@1e206ddf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a12293e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4865211a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5827a71a, org.springframework.security.web.access.ExceptionTranslationFilter@64ce9c61, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a363053]
+2024-10-25T14:10:27.372+03:00  INFO 21380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:10:27.397+03:00  INFO 21380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:10:27.404+03:00  INFO 21380 --- [restartedMain] taskTracker.Main                         : Started Main in 1.835 seconds (process running for 2.572)
+2024-10-25T14:10:31.282+03:00  INFO 21380 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T14:10:31.282+03:00  INFO 21380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T14:10:31.297+03:00  INFO 21380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2024-10-25T14:11:26.913+03:00  INFO 22252 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 22252 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:11:26.913+03:00  INFO 22252 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:11:26.976+03:00  INFO 22252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:11:26.976+03:00  INFO 22252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:11:27.888+03:00  INFO 22252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:11:27.896+03:00  INFO 22252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:11:27.896+03:00  INFO 22252 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:11:27.943+03:00  INFO 22252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:11:27.943+03:00  INFO 22252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 967 ms
+2024-10-25T14:11:28.056+03:00  WARN 22252 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bf915af0-566c-483f-9e93-cbd1f07d6fdf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:11:28.282+03:00  INFO 22252 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52086f7a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f059845, org.springframework.security.web.context.SecurityContextHolderFilter@22b6d596, org.springframework.security.web.header.HeaderWriterFilter@4476e9bc, org.springframework.web.filter.CorsFilter@1eb4e54e, org.springframework.security.web.authentication.logout.LogoutFilter@5a9fe886, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33c39eb2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@305856c5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b41b12d, org.springframework.security.web.access.ExceptionTranslationFilter@19c8ac76, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e170d46]
+2024-10-25T14:11:28.397+03:00  INFO 22252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:11:28.425+03:00  INFO 22252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:11:28.432+03:00  INFO 22252 --- [restartedMain] taskTracker.Main                         : Started Main in 1.883 seconds (process running for 2.652)
+2024-10-25T14:12:02.734+03:00  INFO 12332 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 12332 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:12:02.736+03:00  INFO 12332 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:12:02.796+03:00  INFO 12332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:12:02.797+03:00  INFO 12332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:12:03.837+03:00  INFO 12332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:12:03.846+03:00  INFO 12332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:12:03.847+03:00  INFO 12332 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:12:03.899+03:00  INFO 12332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:12:03.900+03:00  INFO 12332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1102 ms
+2024-10-25T14:12:04.036+03:00  WARN 12332 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: eb809080-22c5-4258-a389-22fc702e7937
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:12:04.283+03:00  INFO 12332 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e31b4cb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@699232ea, org.springframework.security.web.context.SecurityContextHolderFilter@4e9c2ad7, org.springframework.security.web.header.HeaderWriterFilter@6b925d97, org.springframework.web.filter.CorsFilter@401f226f, org.springframework.security.web.authentication.logout.LogoutFilter@78776567, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@674cfce0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e3aa1c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d2f0ef2, org.springframework.security.web.access.ExceptionTranslationFilter@4b084e25, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7adfbd76]
+2024-10-25T14:12:04.415+03:00  INFO 12332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:12:04.452+03:00  INFO 12332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:12:04.471+03:00  INFO 12332 --- [restartedMain] taskTracker.Main                         : Started Main in 2.143 seconds (process running for 3.329)
+2024-10-25T14:12:11.545+03:00  INFO 16100 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 16100 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:12:11.548+03:00  INFO 16100 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:12:11.601+03:00  INFO 16100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:12:11.602+03:00  INFO 16100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:12:12.454+03:00  INFO 16100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:12:12.462+03:00  INFO 16100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:12:12.463+03:00  INFO 16100 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:12:12.512+03:00  INFO 16100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:12:12.512+03:00  INFO 16100 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 910 ms
+2024-10-25T14:12:12.631+03:00  WARN 16100 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1f05f003-9b72-46b7-8a99-237b3e633e9a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:12:12.843+03:00  INFO 16100 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@e2c97fc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c3afb6f, org.springframework.security.web.context.SecurityContextHolderFilter@eed0794, org.springframework.security.web.header.HeaderWriterFilter@e9f317e, org.springframework.web.filter.CorsFilter@37e5c87, org.springframework.security.web.authentication.logout.LogoutFilter@11c2b2b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c1194e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b95c0eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@da4036e, org.springframework.security.web.access.ExceptionTranslationFilter@9c0bc69, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22dfe90f]
+2024-10-25T14:12:12.960+03:00  INFO 16100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:12:12.986+03:00  INFO 16100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:12:12.994+03:00  INFO 16100 --- [restartedMain] taskTracker.Main                         : Started Main in 1.813 seconds (process running for 2.554)
+2024-10-25T14:12:19.185+03:00  INFO 16100 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T14:12:19.185+03:00  INFO 16100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T14:12:19.186+03:00  INFO 16100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-25T14:13:04.104+03:00  INFO 2816 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 2816 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:13:04.104+03:00  INFO 2816 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:13:04.167+03:00  INFO 2816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:13:04.167+03:00  INFO 2816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:13:05.002+03:00  INFO 2816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:13:05.002+03:00  INFO 2816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:13:05.002+03:00  INFO 2816 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:13:05.049+03:00  INFO 2816 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:13:05.049+03:00  INFO 2816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 882 ms
+2024-10-25T14:13:05.160+03:00  WARN 2816 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ed9f5c90-387e-46aa-99ca-c838e2a9ab8d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:13:05.379+03:00  INFO 2816 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1889b7b7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68ac59c8, org.springframework.security.web.context.SecurityContextHolderFilter@623cc89b, org.springframework.security.web.header.HeaderWriterFilter@6c1194e2, org.springframework.web.filter.CorsFilter@36f706bd, org.springframework.security.web.authentication.logout.LogoutFilter@73219b9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@275dec84, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5fba9022, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5358d66a, org.springframework.security.web.access.ExceptionTranslationFilter@eed0794, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37e5c87]
+2024-10-25T14:13:05.489+03:00  INFO 2816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:13:05.524+03:00  INFO 2816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:13:05.536+03:00  INFO 2816 --- [restartedMain] taskTracker.Main                         : Started Main in 1.805 seconds (process running for 2.543)
+2024-10-25T14:13:07.872+03:00  INFO 2816 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T14:13:07.872+03:00  INFO 2816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T14:13:07.872+03:00  INFO 2816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-25T14:18:25.511+03:00  INFO 8156 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 8156 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:18:25.511+03:00  INFO 8156 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:18:25.574+03:00  INFO 8156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:18:25.574+03:00  INFO 8156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:18:26.537+03:00  INFO 8156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:18:26.553+03:00  INFO 8156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:18:26.553+03:00  INFO 8156 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:18:26.615+03:00  INFO 8156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:18:26.622+03:00  INFO 8156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1048 ms
+2024-10-25T14:18:26.725+03:00  WARN 8156 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 13f2dcc2-8db0-44fa-9b68-8da8e6ba64c0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:18:26.944+03:00  INFO 8156 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@217da8f1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f3866b4, org.springframework.security.web.context.SecurityContextHolderFilter@5b51be4, org.springframework.security.web.header.HeaderWriterFilter@28124616, org.springframework.web.filter.CorsFilter@5b0ae4c6, org.springframework.security.web.authentication.logout.LogoutFilter@e4c11aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15edd909, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11617c67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fa4b5d9, org.springframework.security.web.access.ExceptionTranslationFilter@47cd2c73, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32a54235]
+2024-10-25T14:18:27.069+03:00  INFO 8156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:18:27.101+03:00  INFO 8156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:18:27.101+03:00  INFO 8156 --- [restartedMain] taskTracker.Main                         : Started Main in 1.97 seconds (process running for 2.753)
+2024-10-25T14:18:28.150+03:00  INFO 8156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T14:18:28.150+03:00  INFO 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T14:18:28.150+03:00  INFO 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-25T14:19:40.692+03:00  INFO 6304 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 6304 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:19:40.694+03:00  INFO 6304 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:19:40.748+03:00  INFO 6304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:19:40.748+03:00  INFO 6304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:19:41.607+03:00  INFO 6304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:19:41.616+03:00  INFO 6304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:19:41.617+03:00  INFO 6304 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:19:41.665+03:00  INFO 6304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:19:41.666+03:00  INFO 6304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 918 ms
+2024-10-25T14:19:41.773+03:00  WARN 6304 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 244ff1ee-dd7a-40ea-b521-6dffe9783379
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:19:41.983+03:00  INFO 6304 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46ba0531, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4635593f, org.springframework.security.web.context.SecurityContextHolderFilter@78cc666a, org.springframework.security.web.header.HeaderWriterFilter@53e07f7a, org.springframework.web.filter.CorsFilter@1051e331, org.springframework.security.web.authentication.logout.LogoutFilter@1b68eaa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48e82956, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48cf1cde, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32a54235, org.springframework.security.web.access.ExceptionTranslationFilter@38eb611e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43e53d15]
+2024-10-25T14:19:42.094+03:00  INFO 6304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:19:42.126+03:00  INFO 6304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:19:42.135+03:00  INFO 6304 --- [restartedMain] taskTracker.Main                         : Started Main in 1.829 seconds (process running for 2.556)
+2024-10-25T14:19:43.346+03:00  INFO 6304 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T14:19:43.346+03:00  INFO 6304 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T14:19:43.347+03:00  INFO 6304 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-25T14:23:58.343+03:00  WARN 6304 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:24:00.811+03:00  WARN 6304 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:24:03.057+03:00  WARN 6304 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:24:07.845+03:00  WARN 6304 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:24:10.142+03:00  WARN 6304 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:27:54.575+03:00  WARN 6304 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:27:54.590+03:00  WARN 6304 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:27:59.106+03:00  WARN 6304 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:27:59.116+03:00  WARN 6304 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:28:02.694+03:00  WARN 6304 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:28:05.198+03:00  WARN 6304 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:28:07.592+03:00  WARN 6304 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:28:09.748+03:00  WARN 6304 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:32:05.528+03:00  WARN 6304 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:32:05.528+03:00  WARN 6304 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:32:07.247+03:00  WARN 6304 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:34:50.249+03:00  WARN 6304 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:34:50.249+03:00  WARN 6304 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:34:52.828+03:00  WARN 6304 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:35:31.311+03:00  WARN 6304 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:35:31.311+03:00  WARN 6304 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:37:21.835+03:00  WARN 6304 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:37:27.663+03:00  WARN 6304 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:37:27.663+03:00  WARN 6304 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:39:22.078+03:00  WARN 6304 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:39:22.078+03:00  WARN 6304 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:41:31.598+03:00  WARN 6304 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:41:31.598+03:00  WARN 6304 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-10-25T14:45:49.526+03:00  INFO 6304 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2024-10-25T14:45:49.526+03:00  INFO 6304 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-25T14:45:49.542+03:00  INFO 6304 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-10-25T14:45:49.660+03:00  INFO 6304 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 6304 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:45:49.660+03:00  INFO 6304 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:45:49.869+03:00  INFO 6304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:45:49.870+03:00  INFO 6304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:45:49.870+03:00  INFO 6304 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:45:49.886+03:00  INFO 6304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:45:49.886+03:00  INFO 6304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 226 ms
+2024-10-25T14:45:49.917+03:00  WARN 6304 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 69ad63a4-e943-4ce2-8932-6d2ed1400e7f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:45:49.949+03:00  INFO 6304 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a065650, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@631657fb, org.springframework.security.web.context.SecurityContextHolderFilter@649855a7, org.springframework.security.web.header.HeaderWriterFilter@4ca52cb9, org.springframework.web.filter.CorsFilter@17cb1826, org.springframework.security.web.authentication.logout.LogoutFilter@63bf9f56, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e832cbe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c8cd88, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ba517a2, org.springframework.security.web.access.ExceptionTranslationFilter@31510472, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f0e7f92]
+2024-10-25T14:45:49.980+03:00  INFO 6304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:45:49.996+03:00  INFO 6304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:45:49.996+03:00  INFO 6304 --- [restartedMain] taskTracker.Main                         : Started Main in 0.366 seconds (process running for 1570.419)
+2024-10-25T14:45:49.996+03:00  INFO 6304 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-25T14:45:56.253+03:00  INFO 3228 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 3228 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:45:56.254+03:00  INFO 3228 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:45:56.311+03:00  INFO 3228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:45:56.312+03:00  INFO 3228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:45:57.197+03:00  INFO 3228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:45:57.206+03:00  INFO 3228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:45:57.206+03:00  INFO 3228 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:45:57.257+03:00  INFO 3228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:45:57.257+03:00  INFO 3228 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 945 ms
+2024-10-25T14:45:57.373+03:00  WARN 3228 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 673d63f2-6877-4438-9769-2d99119442c5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:45:57.596+03:00  INFO 3228 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@59cff09a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cba4aed, org.springframework.security.web.context.SecurityContextHolderFilter@532c55a1, org.springframework.security.web.header.HeaderWriterFilter@662f340a, org.springframework.web.filter.CorsFilter@1138e0c1, org.springframework.security.web.authentication.logout.LogoutFilter@1a7a03e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@307e0a93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@282d5e26, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a31bca7, org.springframework.security.web.access.ExceptionTranslationFilter@213d90a2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@386fa568]
+2024-10-25T14:45:57.730+03:00  INFO 3228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:45:57.761+03:00  INFO 3228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:45:57.768+03:00  INFO 3228 --- [restartedMain] taskTracker.Main                         : Started Main in 1.888 seconds (process running for 2.657)
+2024-10-25T14:45:59.800+03:00  INFO 3228 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T14:45:59.800+03:00  INFO 3228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T14:45:59.801+03:00  INFO 3228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-25T14:51:11.281+03:00  INFO 27600 --- [restartedMain] taskTracker.Main                         : Starting Main using Java 23 with PID 27600 (D:\Development\Projects\Task-Tracker\backend\target\classes started by David in D:\Development\Projects\Task-Tracker)
+2024-10-25T14:51:11.283+03:00  INFO 27600 --- [restartedMain] taskTracker.Main                         : No active profile set, falling back to 1 default profile: "default"
+2024-10-25T14:51:11.337+03:00  INFO 27600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-25T14:51:11.337+03:00  INFO 27600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-25T14:51:12.194+03:00  INFO 27600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-25T14:51:12.202+03:00  INFO 27600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-25T14:51:12.203+03:00  INFO 27600 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-25T14:51:12.253+03:00  INFO 27600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-25T14:51:12.254+03:00  INFO 27600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 916 ms
+2024-10-25T14:51:12.364+03:00  WARN 27600 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a34a7203-79fa-4b2c-8a9d-3b0db139735b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-25T14:51:12.581+03:00  INFO 27600 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@23d2b2fc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fd36df4, org.springframework.security.web.context.SecurityContextHolderFilter@4557d1b5, org.springframework.security.web.header.HeaderWriterFilter@48e82956, org.springframework.web.filter.CorsFilter@23f3801c, org.springframework.security.web.authentication.logout.LogoutFilter@3f5f4861, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ce53e6d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71276a7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6933e3c6, org.springframework.security.web.access.ExceptionTranslationFilter@78cc666a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f4b7da8]
+2024-10-25T14:51:12.700+03:00  INFO 27600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-25T14:51:12.730+03:00  INFO 27600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-25T14:51:12.739+03:00  INFO 27600 --- [restartedMain] taskTracker.Main                         : Started Main in 1.836 seconds (process running for 2.574)
+2024-10-25T14:51:16.110+03:00  INFO 27600 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-25T14:51:16.111+03:00  INFO 27600 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-25T14:51:16.112+03:00  INFO 27600 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
